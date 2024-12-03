@@ -1,0 +1,14 @@
+pip install alembic
+pip install dnspython
+pip install Flask
+pip install Flask-Admin
+pip install Flask-Login
+pip install Flask-Migrate
+pip install Flask-RESTful
+pip install Flask-SQLAlchemy
+pip install Flask-WTF
+pip install Jinja2
+pip install MarkupSafe
+pip install SQLAlchemy
+pip install Werkzeug
+pip install WTForms

@@ -1,0 +1,21 @@
+{% extends "nav.html" %}
+{% block content %}
+<form action="" method="post" name="register">
+    {{ form.hidden_tag() }}
+    <div id="register-box">
+        <h1><b>Register account</b></h1><br>
+        <p>
+            {{ form.username.label }}
+            {{ form.username }}
+        </p><br>
+        <p>
+            {{ form.password.label }}
+            {{ form.password }}
+        </p><br>
+        {% for error in form.username.errors %}
+        <p style="background-color:red;color:white;padding:10px;">{{ error }}</p>
+        {% endfor %}
+        <p><input type="submit" value="Register"></p>
+    </div>
+</form>
+{% endblock %}
