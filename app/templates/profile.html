@@ -1,0 +1,26 @@
+{% extends "nav.html" %}
+{% block content %}
+<div id="profile-box">
+    <div id="profile-inbox">
+        <img id='profile-image' src="{{ url_for('static', filename='placeholder_image.png') }}">
+        <div id="profile-content">
+            <h1><b>{{ current_user.username }}</b></h1>
+            <hr>
+            <div id="display-description" style="display:flex;flex-direction:column;">
+                {% if current_user.description %}
+                <p class="profile-description">{{ current_user.description }}</p>
+                {% else %}
+                <p class="profile-description">You currently do not have a description for your profile.</p>
+                {% endif %}
+                <button id="edit-description" class="web-button" type="button">Edit description</button>
+            </div>
+            <div id="change-description" style="display:none;">
+                <form>
+                    <textarea id="description_user_input" rows="8" cols="80"></textarea><br>
+                    <button id="save-description" class="web-button" type="button">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
