@@ -1,0 +1,21 @@
+{% extends "nav.html" %}
+{% block content %}
+<div id="game-body">
+  <p id="game-id" style="display:none">{{ game.id }}</p>
+  <h1>{{ game.game_title }}</h1>
+  <hr>
+  <div id="game-content">
+    <img id="game-page-cover" src={{url_for('static', filename="game_images/"+game.cover_image)}} alt="card image cap">
+    <div style="padding:20px;">
+      <h2>Description:</h2>
+      <p>{{ game.description }}</p>
+      <button class="web-button" id="order-button">Order</button><br><br>
+      <button class="web-button" id="unfavourite-button"
+              {% if game in current_user.favourites %}style="display:default"{% else %}style="display:none"{% endif %}>Unfavourite</button>
+      <button class="web-button" id="favourite-button"
+      {% if game in current_user.favourites %} style="display:none" {% else %} style="display:default" {% endif %}>Favourite</button><br>
+      <p id="favourites-count-display" style="font-size:20px;">Favourite Count: {{ game.favourites_count }}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
