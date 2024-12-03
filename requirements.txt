@@ -1,0 +1,27 @@
+alembic @ file:///C:/b/abs_9dfubpaeyo/croot/alembic_1729532445549/work
+aniso8601 @ file:///tmp/build/80754af9/aniso8601_1614708839015/work
+blinker @ file:///C:/b/abs_d9y2dm7cw2/croot/blinker_1696539752170/work
+click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
+colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
+dnspython==2.7.0
+email_validator==2.2.0
+Flask @ file:///C:/b/abs_f9w7doyu0h/croot/flask_1716545924884/work
+Flask-Admin @ file:///C:/b/abs_5ap35oxf4p/croot/flask-admin_1716552405547/work
+Flask-Login @ file:///C:/b/abs_853c5n6vtx/croot/flask-login_1716552560722/work
+Flask-Migrate==4.0.7
+Flask-RESTful @ file:///C:/b/abs_df9101q_b2/croot/flask-restful_1669054881838/work
+Flask-SQLAlchemy @ file:///C:/b/abs_d5arjubk1y/croot/flask-sqlalchemy_1712567300781/work
+Flask-WTF @ file:///C:/b/abs_e00av0y8y0/croot/flask-wtf_1716552160524/work
+greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
+idna==3.10
+itsdangerous @ file:///C:/b/abs_c4vwgdr5yn/croot/itsdangerous_1716533399914/work
+Jinja2 @ file:///C:/b/abs_ddyeze2h6_/croot/jinja2_1730903330414/work
+Mako @ file:///C:/b/abs_e2_71_9f9g/croot/mako_1665472436410/work
+MarkupSafe @ file:///C:/b/abs_ecfdqh67b_/croot/markupsafe_1704206030535/work
+python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
+pytz @ file:///C:/b/abs_6ap4tsz1ox/croot/pytz_1713974360290/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+SQLAlchemy @ file:///C:/b/abs_7duxw5rxx8/croot/sqlalchemy_1725885067126/work
+typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
+Werkzeug @ file:///C:/b/abs_b21bhstb1q/croot/werkzeug_1731005800632/work
+WTForms @ file:///Users/ktietz/demo/mc3/conda-bld/wtforms_1629354749392/work
